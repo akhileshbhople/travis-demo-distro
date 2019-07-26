@@ -2,7 +2,8 @@ language: minimal
 
 os: linux
 
-distro:
+dist:
+  - precise
   - trusty
   - xenial
   - bionic
