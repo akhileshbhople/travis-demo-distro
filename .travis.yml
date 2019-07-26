@@ -2,6 +2,6 @@ language: minimal
 
 os: linux
 
-dist: bionic
+dist: precise
 
 script: cat /etc/os-release
