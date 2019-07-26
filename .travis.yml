@@ -2,6 +2,6 @@ language: minimal
 
 os: linux
 
-dist: precise
+dist: trusty
 
 script: cat /etc/os-release
