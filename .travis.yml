@@ -1,12 +1,7 @@
 language: minimal
 
-matrix:
-  include:
-    - os: linux
-      dist: trusty
-    - os: linux
-      dist: xenial
-    - os: linux
-      dist: bionic
+os: linux
+
+dist: bionic
 
 script: cat /etc/os-release
