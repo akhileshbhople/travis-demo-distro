@@ -1,0 +1,10 @@
+language: minimal
+
+os: linux
+
+distro:
+  - trusty
+  - xenial
+  - bionic
+
+script: cat /etc/os-release
